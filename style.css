@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {  
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 2em;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 3em;  
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+    font-weight: 100;
+    font-family: Caveat;
+}
+
+.section-description {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    color: #555;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+/* Individual Card */
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 0px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.5em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+   
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Placeholder */
+.image-placeholder {
+    width: 100%;
+    height: 170px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+/* Member Name */
+.name {
+    font-size: 0.9em;
+    color: #333;
+}
+.linkedin-icon {
+    margin-right: 8px;
+    margin-left: 158px;
+    color: #0077b5; /* LinkedIn blue */
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: auto;
+    position: absolute;
+    left: 0; 
+    top: 82%; 
+    transform: translateY(-50%); 
+   
+    
+}
+
+.linkedin-icon:hover {
+    color: #005582;
+}
+
